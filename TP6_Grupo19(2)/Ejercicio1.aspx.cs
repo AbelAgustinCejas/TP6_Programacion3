@@ -26,8 +26,33 @@ namespace TP6_Grupo19_2_
 
             DataTable dataTable = conexion.EjecutarSelect(consultaSQL); // LLENAMOS dataTable 
 
-            gvProductos.DataSource = dataTable; // ASIGNAMOS FUENTE
-            gvProductos.DataBind(); // MOSTRAMOS UNA VEZ ASIGNAMOS 
+            gvProductos.DataSource = dataTable; 
+            gvProductos.DataBind(); 
+        }
+
+        protected void gvProductos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void gvProductos_RowDeleting(object sender, GridViewDeleteEventArgs e)
+        {
+
+            /// Obtenemos id de la seleccion del usuario
+            int idProducto = Convert.ToInt32(gvProductos.DataKeys[e.RowIndex].Value);
+
+            /// LLamamos al metodo de la clase GestionProd para eliminar el producto
+            GestionProd gestora = new GestionProd();
+            /// Eliminamos el producto
+            gestora.EliminarProducto(idProducto);
+
+            CargarGridView();
+        }
+        
+
+        protected void gvProductos_PageIndexChanging(object sender, GridViewPageEventArgs e)
+        {
+
         }
     }
 }
