@@ -8,10 +8,10 @@ namespace TP6_Grupo19_2_
     public class Producto
     {
         /// PROPIEDADES
-        private int idProducto;
-        private string nombreProducto;
-        private string cantidadPorUnidad;
-        private decimal precioUnidad;
+        private int _idProducto;
+        private string _nombreProducto;
+        private string _cantidadPorUnidad;
+        private decimal _precioUnidad;
 
 
         /// CONSTRUCTOR
@@ -22,10 +22,10 @@ namespace TP6_Grupo19_2_
 
         public Producto(int idProducto, string nombreProducto, string cantidadPorUnidad, decimal precioUnidad)
         {
-            this.idProducto = idProducto;
-            this.nombreProducto = nombreProducto;
-            this.cantidadPorUnidad = cantidadPorUnidad;
-            this.precioUnidad = precioUnidad;
+            _idProducto = idProducto;
+            _nombreProducto = nombreProducto;
+            _cantidadPorUnidad = cantidadPorUnidad;
+            _precioUnidad = precioUnidad;
         }
 
 
@@ -34,41 +34,27 @@ namespace TP6_Grupo19_2_
         // METODOS GETTERS Y SETTERS
         public int IdProducto
         {
-            get { return idProducto; }
-            set { idProducto = value; }
+            get { return _idProducto; }
+            set { _idProducto = value; }
         }
 
         public string NombreProducto
         {
-            get { return nombreProducto; }
-            set { nombreProducto = value; }
+            get { return _nombreProducto; }
+            set { _nombreProducto = value; }
         }
 
         public string CantidadPorUnidad
         {
-            get { return cantidadPorUnidad; }
-            set { cantidadPorUnidad = value; }
+            get { return _cantidadPorUnidad; }
+            set { _cantidadPorUnidad = value; }
         }
 
         public decimal PrecioUnidad
         {
-            get { return precioUnidad; }
-            set { precioUnidad = value; }
+            get { return _precioUnidad; }
+            set { _precioUnidad = value; }
         }
 
-
-
-
-
-
-
-
-
-
     }
-
-
-
-
-
 }

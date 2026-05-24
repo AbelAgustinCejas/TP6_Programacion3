@@ -14,11 +14,6 @@ namespace TP6_Grupo19_2_
 
         string conexion = @"Data Source=.\SQLEXPRESS;Initial Catalog=Neptuno;Integrated Security=True";
 
-
-
-
-
-
         public void EliminarProducto(int idProducto)
         {
             SqlConnection con = new SqlConnection(conexion);

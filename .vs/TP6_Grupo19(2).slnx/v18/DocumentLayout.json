@@ -1,29 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ezequ\\OneDrive\\Documentos\\GitHub\\TP6_Programacion3\\",
+  "WorkspaceRootPath": "C:\\Users\\agust\\Desktop\\TP6_Programacion3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E5A96A5-F8F4-464B-B07D-31EB10B7EB39}|TP6_Grupo19(2)\\TP6_Grupo19(2).csproj|C:\\Users\\ezequ\\OneDrive\\Documentos\\GitHub\\TP6_Programacion3\\tp6_grupo19(2)\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{9E5A96A5-F8F4-464B-B07D-31EB10B7EB39}|TP6_Grupo19(2)\\TP6_Grupo19(2).csproj|solutionrelative:tp6_grupo19(2)\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E5A96A5-F8F4-464B-B07D-31EB10B7EB39}|TP6_Grupo19(2)\\TP6_Grupo19(2).csproj|c:\\users\\ezequ\\onedrive\\documentos\\github\\tp6_programacion3\\tp6_grupo19(2)\\accesoneptuno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E5A96A5-F8F4-464B-B07D-31EB10B7EB39}|TP6_Grupo19(2)\\TP6_Grupo19(2).csproj|solutionrelative:tp6_grupo19(2)\\accesoneptuno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E5A96A5-F8F4-464B-B07D-31EB10B7EB39}|TP6_Grupo19(2)\\TP6_Grupo19(2).csproj|c:\\users\\ezequ\\onedrive\\documentos\\github\\tp6_programacion3\\tp6_grupo19(2)\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E5A96A5-F8F4-464B-B07D-31EB10B7EB39}|TP6_Grupo19(2)\\TP6_Grupo19(2).csproj|C:\\Users\\agust\\Desktop\\TP6_Programacion3\\tp6_grupo19(2)\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E5A96A5-F8F4-464B-B07D-31EB10B7EB39}|TP6_Grupo19(2)\\TP6_Grupo19(2).csproj|solutionrelative:tp6_grupo19(2)\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E5A96A5-F8F4-464B-B07D-31EB10B7EB39}|TP6_Grupo19(2)\\TP6_Grupo19(2).csproj|c:\\users\\ezequ\\onedrive\\documentos\\github\\tp6_programacion3\\tp6_grupo19(2)\\gestionprod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E5A96A5-F8F4-464B-B07D-31EB10B7EB39}|TP6_Grupo19(2)\\TP6_Grupo19(2).csproj|c:\\users\\agust\\desktop\\tp6_programacion3\\tp6_grupo19(2)\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9E5A96A5-F8F4-464B-B07D-31EB10B7EB39}|TP6_Grupo19(2)\\TP6_Grupo19(2).csproj|solutionrelative:tp6_grupo19(2)\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5A96A5-F8F4-464B-B07D-31EB10B7EB39}|TP6_Grupo19(2)\\TP6_Grupo19(2).csproj|C:\\Users\\agust\\Desktop\\TP6_Programacion3\\tp6_grupo19(2)\\gestionprod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E5A96A5-F8F4-464B-B07D-31EB10B7EB39}|TP6_Grupo19(2)\\TP6_Grupo19(2).csproj|solutionrelative:tp6_grupo19(2)\\gestionprod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E5A96A5-F8F4-464B-B07D-31EB10B7EB39}|TP6_Grupo19(2)\\TP6_Grupo19(2).csproj|C:\\Users\\ezequ\\OneDrive\\Documentos\\GitHub\\TP6_Programacion3\\tp6_grupo19(2)\\inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{9E5A96A5-F8F4-464B-B07D-31EB10B7EB39}|TP6_Grupo19(2)\\TP6_Grupo19(2).csproj|solutionrelative:tp6_grupo19(2)\\inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E5A96A5-F8F4-464B-B07D-31EB10B7EB39}|TP6_Grupo19(2)\\TP6_Grupo19(2).csproj|c:\\users\\ezequ\\onedrive\\documentos\\github\\tp6_programacion3\\tp6_grupo19(2)\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E5A96A5-F8F4-464B-B07D-31EB10B7EB39}|TP6_Grupo19(2)\\TP6_Grupo19(2).csproj|C:\\Users\\agust\\Desktop\\TP6_Programacion3\\tp6_grupo19(2)\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E5A96A5-F8F4-464B-B07D-31EB10B7EB39}|TP6_Grupo19(2)\\TP6_Grupo19(2).csproj|solutionrelative:tp6_grupo19(2)\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,39 +38,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\ezequ\\OneDrive\\Documentos\\GitHub\\TP6_Programacion3\\TP6_Grupo19(2)\\Producto.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\TP6_Programacion3\\TP6_Grupo19(2)\\Producto.cs",
               "RelativeDocumentMoniker": "TP6_Grupo19(2)\\Producto.cs",
-              "ToolTip": "C:\\Users\\ezequ\\OneDrive\\Documentos\\GitHub\\TP6_Programacion3\\TP6_Grupo19(2)\\Producto.cs",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\TP6_Programacion3\\TP6_Grupo19(2)\\Producto.cs",
               "RelativeToolTip": "TP6_Grupo19(2)\\Producto.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-22T20:57:21.813Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "GestionProd.cs",
-              "DocumentMoniker": "C:\\Users\\ezequ\\OneDrive\\Documentos\\GitHub\\TP6_Programacion3\\TP6_Grupo19(2)\\GestionProd.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\TP6_Programacion3\\TP6_Grupo19(2)\\GestionProd.cs",
               "RelativeDocumentMoniker": "TP6_Grupo19(2)\\GestionProd.cs",
-              "ToolTip": "C:\\Users\\ezequ\\OneDrive\\Documentos\\GitHub\\TP6_Programacion3\\TP6_Grupo19(2)\\GestionProd.cs",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\TP6_Programacion3\\TP6_Grupo19(2)\\GestionProd.cs",
               "RelativeToolTip": "TP6_Grupo19(2)\\GestionProd.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-22T20:31:23.101Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Ejercicio1.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\ezequ\\OneDrive\\Documentos\\GitHub\\TP6_Programacion3\\TP6_Grupo19(2)\\Ejercicio1.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\TP6_Programacion3\\TP6_Grupo19(2)\\Ejercicio1.aspx.cs",
               "RelativeDocumentMoniker": "TP6_Grupo19(2)\\Ejercicio1.aspx.cs",
-              "ToolTip": "C:\\Users\\ezequ\\OneDrive\\Documentos\\GitHub\\TP6_Programacion3\\TP6_Grupo19(2)\\Ejercicio1.aspx.cs",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\TP6_Programacion3\\TP6_Grupo19(2)\\Ejercicio1.aspx.cs",
               "RelativeToolTip": "TP6_Grupo19(2)\\Ejercicio1.aspx.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAYwCoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-22T20:08:04.295Z",
               "EditorCaption": ""
@@ -86,40 +78,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AccesoNeptuno.cs",
-              "DocumentMoniker": "C:\\Users\\ezequ\\OneDrive\\Documentos\\GitHub\\TP6_Programacion3\\TP6_Grupo19(2)\\AccesoNeptuno.cs",
-              "RelativeDocumentMoniker": "TP6_Grupo19(2)\\AccesoNeptuno.cs",
-              "ToolTip": "C:\\Users\\ezequ\\OneDrive\\Documentos\\GitHub\\TP6_Programacion3\\TP6_Grupo19(2)\\AccesoNeptuno.cs",
-              "RelativeToolTip": "TP6_Grupo19(2)\\AccesoNeptuno.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-22T20:05:09.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Ejercicio1.aspx",
-              "DocumentMoniker": "C:\\Users\\ezequ\\OneDrive\\Documentos\\GitHub\\TP6_Programacion3\\TP6_Grupo19(2)\\Ejercicio1.aspx",
+              "DocumentMoniker": "C:\\Users\\agust\\Desktop\\TP6_Programacion3\\TP6_Grupo19(2)\\Ejercicio1.aspx",
               "RelativeDocumentMoniker": "TP6_Grupo19(2)\\Ejercicio1.aspx",
-              "ToolTip": "C:\\Users\\ezequ\\OneDrive\\Documentos\\GitHub\\TP6_Programacion3\\TP6_Grupo19(2)\\Ejercicio1.aspx",
+              "ToolTip": "C:\\Users\\agust\\Desktop\\TP6_Programacion3\\TP6_Grupo19(2)\\Ejercicio1.aspx",
               "RelativeToolTip": "TP6_Grupo19(2)\\Ejercicio1.aspx",
               "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2026-05-22T20:04:22.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Inicio.aspx",
-              "DocumentMoniker": "C:\\Users\\ezequ\\OneDrive\\Documentos\\GitHub\\TP6_Programacion3\\TP6_Grupo19(2)\\Inicio.aspx",
-              "RelativeDocumentMoniker": "TP6_Grupo19(2)\\Inicio.aspx",
-              "ToolTip": "C:\\Users\\ezequ\\OneDrive\\Documentos\\GitHub\\TP6_Programacion3\\TP6_Grupo19(2)\\Inicio.aspx",
-              "RelativeToolTip": "TP6_Grupo19(2)\\Inicio.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-05-22T20:03:53.399Z",
               "EditorCaption": ""
             }
           ]

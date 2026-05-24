@@ -39,7 +39,8 @@ namespace TP6_Grupo19_2_
         {
 
             /// Obtenemos id de la seleccion del usuario
-            int idProducto = Convert.ToInt32(gvProductos.DataKeys[e.RowIndex].Value);
+            //int idProducto = Convert.ToInt32(gvProductos.DataKeys[e.RowIndex].Value);
+            int idProducto = Convert.ToInt32(((Label)gvProductos.Rows[e.RowIndex].FindControl("lbl_it_idProducto")).Text);
 
             /// LLamamos al metodo de la clase GestionProd para eliminar el producto
             GestionProd gestora = new GestionProd();
@@ -52,7 +53,8 @@ namespace TP6_Grupo19_2_
 
         protected void gvProductos_PageIndexChanging(object sender, GridViewPageEventArgs e)
         {
-
+            gvProductos.PageIndex = e.NewPageIndex;
+            CargarGridView();
         }
     }
 }
