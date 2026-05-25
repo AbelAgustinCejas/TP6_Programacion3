@@ -31,5 +31,18 @@ namespace TP6_Grupo19_2_
             con.Close();
         }
 
+        public void ActualizarProducto(int idProducto, string nombreProducto, string cantidadPorUnidad, string precioUnidad)
+        {
+            AccesoNeptuno acceso = new AccesoNeptuno();
+
+            string consulta =
+                    "UPDATE Productos SET " +
+                    "NombreProducto = '" + nombreProducto + "', " +
+                    "CantidadPorUnidad = '" + cantidadPorUnidad + "', " +
+                    "PrecioUnidad = " + precioUnidad +
+                    " WHERE IdProducto = " + idProducto;
+
+            acceso.EjecutarSelect(consulta);
+        }
     }
 }

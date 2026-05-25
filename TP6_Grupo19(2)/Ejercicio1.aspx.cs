@@ -49,7 +49,45 @@ namespace TP6_Grupo19_2_
 
             CargarGridView();
         }
-        
+
+        protected void gvProductos_RowEditing(object sender, GridViewEditEventArgs e)
+        {
+            gvProductos.EditIndex = e.NewEditIndex;
+
+            CargarGridView();
+        }
+
+        protected void gvProductos_RowCancelingEdit(object sender, GridViewCancelEditEventArgs e)
+        {
+            gvProductos.EditIndex = -1;
+
+            CargarGridView();
+        }
+
+        protected void gvProductos_RowUpdating(object sender, GridViewUpdateEventArgs e)
+        {
+            int idProducto = Convert.ToInt32(gvProductos.DataKeys[e.RowIndex].Value);
+
+            string nombreProducto = ((TextBox)gvProductos.Rows[e.RowIndex].FindControl("txt_eit_NombreProducto")).Text;
+
+            string cantidadPorUnidad = ((TextBox)gvProductos.Rows[e.RowIndex].FindControl("txt_eit_CantidadPorUnidad")).Text;
+
+            string precioUnidad = ((TextBox)gvProductos.Rows[e.RowIndex].FindControl("txt_eit_PrecioUnidad")).Text;
+
+            if (nombreProducto == "" || cantidadPorUnidad == "" || precioUnidad == "")
+            {
+                return;
+            }
+
+            GestionProd gestora = new GestionProd();
+
+            gestora.ActualizarProducto(idProducto, nombreProducto, cantidadPorUnidad, precioUnidad);
+
+            gvProductos.EditIndex = -1;
+
+            CargarGridView();
+        }
+
 
         protected void gvProductos_PageIndexChanging(object sender, GridViewPageEventArgs e)
         {
