@@ -81,7 +81,9 @@ namespace TP6_Grupo19_2_
 
             GestionProd gestora = new GestionProd();
 
-            gestora.ActualizarProducto(idProducto, nombreProducto, cantidadPorUnidad, precioUnidad);
+            decimal precioUnidadDecimal = Convert.ToDecimal(precioUnidad);
+
+            gestora.ActualizarProducto(idProducto, nombreProducto, cantidadPorUnidad, precioUnidadDecimal);
 
             gvProductos.EditIndex = -1;
 

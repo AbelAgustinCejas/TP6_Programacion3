@@ -31,18 +31,30 @@ namespace TP6_Grupo19_2_
             con.Close();
         }
 
-        public void ActualizarProducto(int idProducto, string nombreProducto, string cantidadPorUnidad, string precioUnidad)
+
+        public void ActualizarProducto(int idProducto, string nombreProducto, string cantidadPorUnidad, decimal precioUnidad)
         {
             AccesoNeptuno acceso = new AccesoNeptuno();
 
-            string consulta =
-                    "UPDATE Productos SET " +
-                    "NombreProducto = '" + nombreProducto + "', " +
-                    "CantidadPorUnidad = '" + cantidadPorUnidad + "', " +
-                    "PrecioUnidad = " + precioUnidad +
-                    " WHERE IdProducto = " + idProducto;
+            SqlConnection conexion = acceso.ObtenerConexion();
 
-            acceso.EjecutarSelect(consulta);
+            string consulta =
+
+                "UPDATE Productos SET " +
+                "NombreProducto = @nombre, " +
+                "CantidadPorUnidad = @cantidad, " +
+                "PrecioUnidad = @precio " +
+                "WHERE IdProducto = @id";
+
+            SqlCommand command = new SqlCommand(consulta, conexion);
+
+            command.Parameters.AddWithValue("@nombre", nombreProducto);
+            command.Parameters.AddWithValue("@cantidad", cantidadPorUnidad);
+            command.Parameters.AddWithValue("@precio", precioUnidad);
+            command.Parameters.AddWithValue("@id", idProducto);
+
+            command.ExecuteNonQuery();
+            conexion.Close();
         }
     }
 }
