@@ -15,12 +15,12 @@
             GRUPO Nº19(2)<br />
             <br />
         </div>
-        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Ejercicio1.aspx">Ejercicio 1</asp:HyperLink>
+        <asp:HyperLink ID="HyperLinkEJ1" runat="server" NavigateUrl="~/Ejercicio1.aspx">Ejercicio 1</asp:HyperLink>
         <br />
         <br />
         <br />
         <p>
-            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Ejercicio2.aspx">Ejercicio 2</asp:HyperLink>
+            <asp:HyperLink ID="HyperLinkEJ2" runat="server" NavigateUrl="~/Ejercicio2.aspx">Ejercicio 2</asp:HyperLink>
         </p>
     </form>
 </body>

@@ -40,7 +40,8 @@ namespace TP6_Grupo19_2_
 
             /// Obtenemos id de la seleccion del usuario
             //int idProducto = Convert.ToInt32(gvProductos.DataKeys[e.RowIndex].Value);
-            int idProducto = Convert.ToInt32(((Label)gvProductos.Rows[e.RowIndex].FindControl("lbl_it_idProducto")).Text);
+            Label labelId = (Label)gvProductos.Rows[e.RowIndex].FindControl("lbl_it_idProducto"); // Casteamos a label
+            int idProducto = Convert.ToInt32(labelId.Text); // Casteamos a entero el string usando el .Text del label
 
             /// LLamamos al metodo de la clase GestionProd para eliminar el producto
             GestionProd gestora = new GestionProd();
