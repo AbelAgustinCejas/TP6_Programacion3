@@ -16,6 +16,11 @@ namespace TP6_Grupo19_2_
             if (!IsPostBack)
             {
                 CargarGridView();
+
+                if (Session["tablaProductos"] == null)
+                {
+                    Session["tablaProductos"] = CrearTabla();
+                }
             }
         }
     
@@ -43,7 +48,7 @@ namespace TP6_Grupo19_2_
             dataColumn = new DataColumn("Nombre Producto", System.Type.GetType("System.String"));
             dataTable.Columns.Add(dataColumn);
 
-            dataColumn = new DataColumn("Cantidad Por Unidad", System.Type.GetType("System.Int32"));
+            dataColumn = new DataColumn("Cantidad Por Unidad", System.Type.GetType("System.String"));
             dataTable.Columns.Add(dataColumn);
 
             dataColumn = new DataColumn("Precio Unidad", System.Type.GetType("System.String"));
@@ -62,7 +67,24 @@ namespace TP6_Grupo19_2_
 
         protected void gvProductos_SelectedIndexChanged(object sender, EventArgs e)
         {
+            DataTable tabla = (DataTable)Session["tablaProductos"];
+
+            DataRow nuevaFila = tabla.NewRow();
+
+            nuevaFila["Id Producto"] = ((Label)gvProductos.SelectedRow.FindControl("lbl_it_idProducto")).Text;
+
+            nuevaFila["Nombre Producto"] = ((Label)gvProductos.SelectedRow.FindControl("lbl_it_NombreProducto")).Text;
+
+            nuevaFila["Cantidad Por Unidad"] = ((Label)gvProductos.SelectedRow.FindControl("lbl_it_CantidadPorUnidad")).Text;
+
+            nuevaFila["Precio Unidad"] = ((Label)gvProductos.SelectedRow.FindControl("lbl_it_PrecioUnidad")).Text;
+
+            tabla.Rows.Add(nuevaFila);
+
+            Session["tablaProductos"] = tabla;
+
             lblProducto_Seleccionado.Text = ((Label)gvProductos.SelectedRow.FindControl("lbl_it_NombreProducto")).Text;
+
             lblProducto_Seleccionado.Visible = true;
         }
 
