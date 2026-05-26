@@ -11,7 +11,7 @@ namespace TP6_Grupo19_2_
 {
 
 
-    public partial class Ejercicio2
+    public partial class SeleccionarProductos2
     {
 
         /// <summary>
@@ -24,21 +24,12 @@ namespace TP6_Grupo19_2_
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Control HyperLinkSP.
+        /// Control gvProductos.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLinkSP;
-
-        /// <summary>
-        /// Control HyperLinkMP.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink HyperLinkMP;
+        protected global::System.Web.UI.WebControls.GridView gvProductos;
     }
 }
