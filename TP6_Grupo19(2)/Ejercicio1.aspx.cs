@@ -30,14 +30,8 @@ namespace TP6_Grupo19_2_
             gvProductos.DataBind(); 
         }
 
-        protected void gvProductos_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         protected void gvProductos_RowDeleting(object sender, GridViewDeleteEventArgs e)
         {
-
             /// Obtenemos id de la seleccion del usuario
             //int idProducto = Convert.ToInt32(gvProductos.DataKeys[e.RowIndex].Value);
             Label labelId = (Label)gvProductos.Rows[e.RowIndex].FindControl("lbl_it_idProducto"); // Casteamos a label
@@ -73,18 +67,11 @@ namespace TP6_Grupo19_2_
 
             string cantidadPorUnidad = ((TextBox)gvProductos.Rows[e.RowIndex].FindControl("txt_eit_CantidadPorUnidad")).Text;
 
-            string precioUnidad = ((TextBox)gvProductos.Rows[e.RowIndex].FindControl("txt_eit_PrecioUnidad")).Text;
-
-            if (nombreProducto == "" || cantidadPorUnidad == "" || precioUnidad == "")
-            {
-                return;
-            }
+            decimal precioUnidad = Convert.ToDecimal(((TextBox)gvProductos.Rows[e.RowIndex].FindControl("txt_eit_PrecioUnidad")).Text);
 
             GestionProd gestora = new GestionProd();
 
-            decimal precioUnidadDecimal = Convert.ToDecimal(precioUnidad);
-
-            gestora.ActualizarProducto(idProducto, nombreProducto, cantidadPorUnidad, precioUnidadDecimal);
+            gestora.ActualizarProducto( idProducto, nombreProducto, cantidadPorUnidad, precioUnidad);
 
             gvProductos.EditIndex = -1;
 

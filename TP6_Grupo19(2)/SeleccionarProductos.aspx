@@ -12,12 +12,15 @@
         <div>
         </div>
 
-        <asp:GridView ID="gvProductos" runat="server"
+        <asp:GridView ID="gvProductos" 
+            runat="server"
             AutoGenerateColumns="False"
             AllowPaging="True"
             PageSize="14"
             DataKeyNames="IdProducto"
-            OnPageIndexChanging="gvProductos_PageIndexChanging" AutoGenerateSelectButton="True" OnSelectedIndexChanged="gvProductos_SelectedIndexChanged">
+            OnPageIndexChanging="gvProductos_PageIndexChanging" 
+            AutoGenerateSelectButton="True" 
+            OnSelectedIndexChanged="gvProductos_SelectedIndexChanged">
 
             <Columns>
 
@@ -37,12 +40,6 @@
                             Text='<%# Bind("NombreProducto") %>'>
                         </asp:Label>
                     </ItemTemplate>
-                    <EditItemTemplate>
-                        <asp:TextBox ID="txt_eit_NombreProducto"
-                            runat="server"
-                            Text='<%# Bind("NombreProducto") %>'>
-                        </asp:TextBox>
-                    </EditItemTemplate>
                 </asp:TemplateField>
 
                 <asp:TemplateField HeaderText="Cantidad Por Unidad">
@@ -52,12 +49,6 @@
                             Text='<%# Bind("CantidadPorUnidad") %>'>
                         </asp:Label>
                     </ItemTemplate>
-                    <EditItemTemplate>
-                        <asp:TextBox ID="txt_eit_CantidadPorUnidad"
-                            runat="server"
-                            Text='<%# Bind("CantidadPorUnidad") %>'>
-                        </asp:TextBox>
-                    </EditItemTemplate>
                 </asp:TemplateField>
 
                 <asp:TemplateField HeaderText="Precio Unidad">
@@ -67,12 +58,6 @@
                             Text='<%# Bind("PrecioUnidad") %>'>
                         </asp:Label>
                     </ItemTemplate>
-                    <EditItemTemplate>
-                        <asp:TextBox ID="txt_eit_PrecioUnidad"
-                            runat="server"
-                            Text='<%# Bind("PrecioUnidad") %>'>
-                        </asp:TextBox>
-                    </EditItemTemplate>
                 </asp:TemplateField>
 
             </Columns>
@@ -96,7 +81,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <br />
         <br />
-        <asp:HyperLink ID="HyperLinkInicio" runat="server" NavigateUrl="~/Inicio.aspx">Volver al Inicio</asp:HyperLink>
+        <asp:HyperLink ID="HyperLinkInicio" runat="server" NavigateUrl="~/Ejercicio2.aspx">Volver al Inicio</asp:HyperLink>
 
     </form>
 </body>

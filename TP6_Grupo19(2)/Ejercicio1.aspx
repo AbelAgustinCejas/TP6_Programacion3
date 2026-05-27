@@ -25,7 +25,9 @@
             PageSize="10"
             DataKeyNames="IdProducto"
             OnPageIndexChanging="gvProductos_PageIndexChanging"
+            OnRowDeleting="gvProductos_RowDeleting"
             OnRowEditing="gvProductos_RowEditing"
+            OnRowCancelingEdit="gvProductos_RowCancelingEdit"
             OnRowUpdating="gvProductos_RowUpdating">
 
             <Columns>
@@ -70,18 +72,40 @@
                 </asp:TemplateField>
 
                 <asp:TemplateField HeaderText="Precio Unidad">
+
                     <ItemTemplate>
                         <asp:Label ID="lbl_it_PrecioUnidad"
                             runat="server"
                             Text='<%# Bind("PrecioUnidad") %>'>
                         </asp:Label>
                     </ItemTemplate>
+
                     <EditItemTemplate>
+
                         <asp:TextBox ID="txt_eit_PrecioUnidad"
                             runat="server"
                             Text='<%# Bind("PrecioUnidad") %>'>
                         </asp:TextBox>
+
+                        <asp:RequiredFieldValidator
+                            ID="rfvPrecioUnidad"
+                            runat="server"
+                            ControlToValidate="txt_eit_PrecioUnidad"
+                            ErrorMessage="*"
+                            ForeColor="Red">
+                        </asp:RequiredFieldValidator>
+
+                        <asp:RegularExpressionValidator
+                            ID="revPrecioUnidad"
+                            runat="server"
+                            ControlToValidate="txt_eit_PrecioUnidad"
+                            ValidationExpression="^\d+([\,\.]\d+)?$"
+                            ErrorMessage="Ingrese solo números"
+                            ForeColor="Red">
+                        </asp:RegularExpressionValidator>
+
                     </EditItemTemplate>
+
                 </asp:TemplateField>
 
             </Columns>
