@@ -12,6 +12,26 @@ namespace TP6_Grupo19_2_
         protected void Page_Load(object sender, EventArgs e)
         {
 
+            if (!IsPostBack)
+            {
+                if (Session["tablaProductos"] != null)
+                {
+                    gvProductos.DataSource = Session["tablaProductos"];
+                    gvProductos.DataBind();
+                }
+                else
+                {
+                    lblMensaje.Text = "No hay productos seleccionados";
+                }
+
+            }
         }
+
+        protected void volverinicio_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Ejercicio2.aspx");
+        }
+
     }
 }
+    

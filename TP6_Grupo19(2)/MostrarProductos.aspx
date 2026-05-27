@@ -10,7 +10,29 @@
 <body>
     <form id="form1" runat="server">
         <div>
-        </div>
+            <asp:Label
+    ID="lblMensaje"
+    runat="server"
+    Text="Productos seleccionados">
+</asp:Label>
+
+            <br />
+            <br />
+            <br />
+      <asp:GridView
+    ID="gvProductos"
+    runat="server">
+</asp:GridView>
+            <br />
+            <br />
+            <br />
+            <br />
+
+        <asp:LinkButton
+    ID="volverinicio"
+    runat="server"
+    OnClick="volverinicio_Click">
+volver al inicio</asp:LinkButton></div>
     </form>
 </body>
 </html>

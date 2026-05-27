@@ -19,10 +19,23 @@
         <asp:HyperLink ID="HyperLinkSP" runat="server" NavigateUrl="~/SeleccionarProductos.aspx">Seleccionar Productos</asp:HyperLink>
         <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:HyperLink ID="HyperLinkEPS" runat="server">Eliminar productos seleccionados</asp:HyperLink>
-        <br />
+<asp:LinkButton 
+    ID="lnkEliminar" 
+    runat="server"
+    Text="Eliminar Productos Seleccionados"
+    OnClick="Eliminar_Click">
+</asp:LinkButton>        <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:HyperLink ID="HyperLinkMP" runat="server" NavigateUrl="~/MostrarProductos.aspx">Mostrar productos</asp:HyperLink>
     </form>
+    <p>
+        &nbsp;</p>
+    <p>
+<asp:Label 
+    ID="lblMensaje" 
+    runat="server" 
+    Text="Se elimino la seleccion">
+</asp:Label>    <p>
+        &nbsp;</p>
 </body>
 </html>

@@ -33,6 +33,15 @@ namespace TP6_Grupo19_2_
         protected global::System.Web.UI.WebControls.HyperLink HyperLinkSP;
 
         /// <summary>
+        /// Control lnkEliminar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton lnkEliminar;
+
+        /// <summary>
         /// Control HyperLinkMP.
         /// </summary>
         /// <remarks>
@@ -40,5 +49,14 @@ namespace TP6_Grupo19_2_
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HyperLink HyperLinkMP;
+
+        /// <summary>
+        /// Control lblMensaje.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMensaje;
     }
 }

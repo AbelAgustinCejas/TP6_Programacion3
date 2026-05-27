@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
-using System.Data.SqlClient;
 using System.Linq;
 using System.Reflection.Emit;
 using System.Web;
 using System.Web.UI.WebControls;
+using System.Data.SqlClient;
 
 
 namespace TP6_Grupo19_2_
@@ -30,36 +29,6 @@ namespace TP6_Grupo19_2_
             cmd.ExecuteNonQuery();
 
             con.Close();
-        }
-
-        public DataTable ListarProductos()
-        {
-            SqlConnection con =
-                new SqlConnection(conexion);
-
-            string query =
-                "SELECT IdProducto, " +
-                "NombreProducto, " +
-                "CantidadPorUnidad, " +
-                "IdProveedor " +
-                "FROM Productos";
-
-            SqlCommand cmd =
-                new SqlCommand(query, con);
-
-            SqlDataAdapter adapter =
-                new SqlDataAdapter(cmd);
-
-            DataTable tabla =
-                new DataTable();
-
-            con.Open();
-
-            adapter.Fill(tabla);
-
-            con.Close();
-
-            return tabla;
         }
 
 
